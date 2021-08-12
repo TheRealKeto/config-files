@@ -1,0 +1,38 @@
+## config-files (.nanorc)
+## Configuration file for GNU nano
+
+## This file contains configuration options for nano
+## Add this file to your $HOME path to use these options
+
+## Use a smaller tabsize and convert tabs to spaces
+## These match the tabsize of other editors I use
+set tabsize 4
+set tabtospaces
+
+## Automatically indent newlines
+set autoindent
+
+## Always show line numbers on editor
+## Helps identify which line messes things up, etc
+set linenumbers
+
+## Remember the cursor position in file
+set positionlog
+
+## Change the look of nano
+## Probably terrible, but simple
+
+## Change the function key color
+set keycolor white,black
+
+## Change the title bar color
+set titlecolor white,black
+
+## Change the status bar color
+set statuscolor white,black
+
+## Match numberline color to title bar
+set numbercolor white,black
+
+## Change the function name color
+set functioncolor white,black
