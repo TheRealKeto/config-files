@@ -1,0 +1,14 @@
+// config-files (keybindings.json)
+// Custom keybindings for Visual Studio Code
+
+[{
+    // Create a new file in the Explorer
+    // Press Alt + N to create a new file
+    "key": "alt+n",
+    "command": "explorer.newFile"
+}, {
+    // Create a new folder in the Explorer
+    // Press Alt + F to create a new folder
+    "key": "alt+f",
+    "command": "explorer.newFolder"
+}]

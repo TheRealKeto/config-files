@@ -1,0 +1,36 @@
+// config-files (settings.json)
+// Configuration file for Visual Studio Code
+
+{
+    // Workbench settings
+    // Automatically save changes when switching windows
+    "files.autoSave": "onWindowChange",
+    // Set the default workbench to a blank window
+    "workbench.startupEditor": "none",
+    // Set "One Dark Pro" as the editor theme
+    // You must have the "One Dark Pro" theme installed
+    "workbench.colorTheme": "One Dark Pro",
+    // Change the title of the workbench window
+    "window.title": "${activeEditorShort}${separator}${rootName}",
+
+    // Extension settings
+    // Disable auto updates on extensions
+    "extensions.autoUpdate": false,
+    // Still check for extension updates, though
+    "extensions.autoCheckUpdates": true,
+
+    // Miscellanious settings
+    // Manually check for editor updates
+    "update.mode": "manual",
+    // Disable auto indentation detection
+    "editor.detectIndentation": false,
+    // Disable Telemetry crashreporter
+    "telemetry.enableCrashReporter": false,
+
+    // Python extension settings
+    // Automatically enable a venv (if any)
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    // Disable linting globally, but enable Flake8 linting
+    "python.linting.enabled": false,
+    "python.linting.flake8Enabled": true
+}
