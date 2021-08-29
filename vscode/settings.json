@@ -7,7 +7,7 @@
     "files.autoSave": "onWindowChange",
     // Set the default workbench to a blank window
     "workbench.startupEditor": "none",
-    // Set "One Dark Pro" as the editor theme
+    // Set the default editor theme
     // You must have the "One Dark Pro" theme installed
     "workbench.colorTheme": "One Dark Pro",
     // Change the title of the workbench window
@@ -18,6 +18,20 @@
     "extensions.autoUpdate": false,
     // Still check for extension updates, though
     "extensions.autoCheckUpdates": true,
+
+    // Integrated terminal settings
+    // Create a custom Git Bash profile
+    "terminal.integrated.profiles.windows": {
+        "Git bash --login": {
+            "source": "Git Bash",
+            "icon": "terminal-bash",
+            "args": ["--login"]
+        }
+    },
+    // Use custom Git Bash profile as default
+    "terminal.integrated.defaultProfile.windows": "Git Bash --login",
+    // Enable persistent session in integrated terminals
+    "terminal.integrated.enablePersistentSessions": true,
 
     // Miscellanious settings
     // Manually check for editor updates
