@@ -7,7 +7,7 @@
 ## Use a smaller tabsize and convert tabs to spaces
 ## These match the tabsize of other editors I use
 set tabsize 4
-set tabtospaces
+set tabstospaces
 
 ## Automatically indent newlines
 set autoindent
