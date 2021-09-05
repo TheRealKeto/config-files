@@ -11,4 +11,9 @@
     // Press Alt + F to create a new folder
     "key": "alt+f",
     "command": "explorer.newFolder"
+}, {
+    // Reload any workspace window
+    // Replacement for Ctrl + R default command
+    "key": "ctrl+k f5",
+    "command": "workbench.action.reloadWindow"
 }]
