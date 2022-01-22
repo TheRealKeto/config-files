@@ -9,9 +9,6 @@
 set tabsize 4
 set tabstospaces
 
-## Automatically indent newlines
-set autoindent
-
 ## Always show line numbers on editor
 ## Helps identify which line messes things up, etc
 set linenumbers
@@ -29,7 +26,7 @@ set keycolor white,black
 set titlecolor white,black
 
 ## Change the status bar color
-set statuscolor white,black
+set statuscolor black,white
 
 ## Match numberline color to title bar
 set numbercolor white,black
