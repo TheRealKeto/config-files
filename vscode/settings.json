@@ -25,24 +25,24 @@
         "Git bash --login": {
             "source": "Git Bash",
             "icon": "terminal-bash",
-            "args": ["--login"]
+            "args": ["-l"]
         }
     },
     // Use custom Git Bash profile as default
-    "terminal.integrated.defaultProfile.windows": "Git Bash --login",
+    "terminal.integrated.defaultProfile.windows": "Git bash --login",
     // Enable persistent session in integrated terminals
     "terminal.integrated.enablePersistentSessions": true,
 
-    // Miscellanious settings
+    // Miscellaneous settings
     // Manually check for editor updates
     "update.mode": "manual",
     // Disable auto indentation detection
     "editor.detectIndentation": false,
-    // Disable Telemetry crashreporter
-    "telemetry.enableCrashReporter": false,
+    // Disable Telemetry crash reporter
+    "telemetry.telemetryLevel": "off",
 
     // Python extension settings
-    // Automatically enable a venv (if any)
+    // Automatically enable a virtual environment (if any)
     "python.terminal.activateEnvInCurrentTerminal": true,
     // Disable linting globally, but enable Flake8 linting
     "python.linting.enabled": false,
