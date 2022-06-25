@@ -44,7 +44,7 @@
     // Python extension settings
     // Automatically enable a virtual environment (if any)
     "python.terminal.activateEnvInCurrentTerminal": true,
-    // Disable linting globally, but enable Flake8 linting
-    "python.linting.enabled": false,
+    // Enable Python linting, but use flake8 instead of Pylance
+    "python.linting.enabled": true,
     "python.linting.flake8Enabled": true
 }
